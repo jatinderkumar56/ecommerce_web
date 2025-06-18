@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import { sliderItems } from './DataFile';
-import { mobile, tablet } from '../Responsive';
+import { mobile, tabletstyles } from '../Responsive';
 import { Link } from 'react-router-dom';
 import { positive } from 'zod/v4';
 
@@ -15,7 +15,7 @@ width: 100%;
 position: relative;
 overflow: hidden;
 ${mobile({display: 'none'})}
-${tablet({display:'none'})}
+${tabletstyles({display:'none'})}
 
 
 
